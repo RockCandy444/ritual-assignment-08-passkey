@@ -1,0 +1,15 @@
+import {DatabaseSync} from 'node:sqlite';
+import {readFileSync,writeFileSync,readdirSync} from 'node:fs';
+import path from 'node:path';
+const directory='.wrangler/state/v3/d1/miniflare-D1DatabaseObject';
+const names=readdirSync(directory).filter(x=>x.endsWith('.sqlite')&&x!=='metadata.sqlite');
+if(names.length!==1)throw new Error('Expected exactly one local application database');
+const db=new DatabaseSync(path.join(directory,names[0]),{readOnly:true});
+const evidence=JSON.parse(readFileSync('docs/ENGINEERING_EVIDENCE.json','utf8'));
+const ids=evidence.users.map(x=>x.id);
+const keys=db.prepare('SELECT id,user_id,public_key,counter,name,storage,created_at,revoked_at FROM passkeys WHERE user_id IN (?,?) ORDER BY user_id,created_at').all(...ids);
+writeFileSync('docs/TEST_PUBLIC_KEYS.json',JSON.stringify({scope:'Synthesized engineering test credentials only. These are COSE public keys encoded as base64url, not passwords. No private keys are sent to or stored by the app.',keys},null,2));
+const cancelled=db.prepare("SELECT COUNT(*) AS count FROM users WHERE display_name='취소연습'").get();
+if(cancelled.count!==0)throw new Error('Cancelled registration created a user');
+console.log(JSON.stringify({publicKeyRecords:keys.length,cancelledUsers:cancelled.count,privateKeysExported:false}));
+db.close();

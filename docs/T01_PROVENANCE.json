@@ -1,0 +1,11 @@
+{
+  "task": "T08",
+  "originalTask": "T01",
+  "originalResultUrl": "https://donghyeong-little-stories.ldh4563.chatgpt.site/",
+  "originalSubmissionSourceUrl": "https://github.com/RockCandy444/donghyeong-little-stories/tree/c4d7f20c62da7bd945e1cd643970366578c8b142",
+  "workspaceRevisionCopied": "5c35c7368911973a0734483988a380174bdf5c06",
+  "copiedFiles": ["app/page.tsx", "app/globals.css", "app/layout.tsx"],
+  "preservedContent": ["소개 문장", "관심사 네 항목", "경험 세 이야기와 펼치기", "공주시립합창단 프로젝트와 외부 링크"],
+  "change": "공개 소개 아래에 메모함 입구를 추가하고 별도 /private 경로 및 패스키 API를 연결",
+  "originalSiteChanged": false
+}

@@ -1,0 +1,1957 @@
+{
+  "testedAt": "2026-10-06T05:56:23.857Z",
+  "origin": "http://127.0.0.1:5178",
+  "scope": "Local D1, synthesized authenticators with real ECDSA signatures; no actual device registration",
+  "checks": 60,
+  "users": [
+    {
+      "id": "eedab8c7-03d0-41d2-baef-f0ff49ae6a0a",
+      "displayName": "연습A"
+    },
+    {
+      "id": "d5931c23-dee4-4399-93f4-50eacddb24d1",
+      "displayName": "연습B"
+    }
+  ],
+  "records": [
+    {
+      "request": {
+        "method": "GET",
+        "path": "/",
+        "headers": {},
+        "body": null
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "text": "<!DOCTYPE html><html lang=\"ko\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"/app/globals.css\" data-rsc-css-href=\"/app/globals.css\" data-precedence=\"vite-rsc/importer-resources\"/><link rel=\"modulepreload\" fetchPriority=\"low\" href=\"/@id/__x00__virtual:vite-rsc/entry-browser\"/><title>솜사탕의 작은 이야기</title><meta name=\"description\" content=\"솜사탕의 관심사와 경험, 패스키로 여는 나만의 메모함.\"/><link rel=\"icon\" href=\"/favicon.svg\"/><script>Object.assign(((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}),{params:{},nav:{\"pathname\":\"/\",\"searchParams\":[]}})</script><link rel=\"modulepreload\" href=\"/@id/__x00__virtual:vite-rsc/entry-browser\" />\n</head><body><a class=\"skip\" href=\"#main\">본문으로 바로 가기</a><header class=\"top\"><a class=\"wordmark\" href=\"#main\">솜사탕<span>의 작은 이야기</span><span class=\"dot\" aria-hidden=\"true\">●</span></a><nav aria-label=\"페이지 메뉴\"><a href=\"#stories\">나의 이야기</a><a href=\"#project\">함께 만든 것 <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></a></nav></header><main id=\"main\" tabindex=\"-1\"><section class=\"intro\" aria-labelledby=\"intro-title\"><div class=\"hello\"><p class=\"eyebrow\">반가워요, 제 이야기를 들려드릴게요.</p><h1 id=\"intro-title\">함께할 땐 다정하게,<br/>좋아하는 건 <span>끝까지.</span></h1><p class=\"introduction\">안녕하세요, <strong>솜사탕</strong>입니다.<br/>가족과 친구, 동료에게 제가 좋아하는 것과<br class=\"desktop-break\"/> 경험 속에 담긴 제 모습을 소개합니다.</p></div><aside class=\"interests\" aria-labelledby=\"interest-title\"><div class=\"note-heading\"><span class=\"small-label\">조금 더 가까이</span><span aria-hidden=\"true\">✳</span></div><h2 id=\"interest-title\">나를 즐겁게 하는 것들</h2><ul><li><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-music2 lucide-music-2\" aria-hidden=\"true\"><circle cx=\"8\" cy=\"18\" r=\"4\"></circle><path d=\"M12 18V2l7 4\"></path></svg><span>악기 연주</span></li><li><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-languages\" aria-hidden=\"true\"><path d=\"m5 8 6 6\"></path><path d=\"m4 14 6-6 2-3\"></path><path d=\"M2 5h12\"></path><path d=\"M7 2h1\"></path><path d=\"m22 22-5-10-5 10\"></path><path d=\"M14 18h6\"></path></svg><span>언어</span></li><li><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-book-open\" aria-hidden=\"true\"><path d=\"M12 5v16\"></path><path d=\"M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z\"></path></svg><span>삼국지 · 일본 전국시대</span></li><li><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-gamepad2 lucide-gamepad-2\" aria-hidden=\"true\"><line x1=\"6\" x2=\"10\" y1=\"11\" y2=\"11\"></line><line x1=\"8\" x2=\"8\" y1=\"9\" y2=\"13\"></line><line x1=\"15\" x2=\"15.01\" y1=\"12\" y2=\"12\"></line><line x1=\"18\" x2=\"18.01\" y1=\"10\" y2=\"10\"></line><path d=\"M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z\"></path></svg><span>게임</span></li></ul><p>음악부터 역사, 그리고 게임 속 모험까지.</p></aside></section><section id=\"stories\" aria-labelledby=\"stories-title\"><div class=\"section-heading\"><h2 id=\"stories-title\">경험 속의 나<span class=\"count\">03</span></h2><p>작은 순간에 드러나는, 저다운 모습.</p></div><div class=\"stories-grid\"><div data-state=\"closed\" data-slot=\"collapsible\" class=\"story mint\"><div class=\"story-top\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-users\" aria-hidden=\"true\"><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"></path><path d=\"M16 3.128a4 4 0 0 1 0 7.744\"></path><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle></svg><span>01</span></div><p class=\"tag\">함께하는 마음</p><h3>내 의견보다, 우리 사이</h3><p class=\"summary\">팀원들과 보조를 맞추며 마찰 없이 함께했습니다.</p><button type=\"button\" aria-expanded=\"false\" data-state=\"closed\" data-slot=\"collapsible-trigger\" class=\"story-trigger\" aria-label=\"내 의견보다, 우리 사이 — 이야기 펼쳐보기\">이야기 펼쳐보기<!-- --> <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"M12 5v14\"></path></svg></button><div data-state=\"closed\" id=\"radix-_R_1idi_\" hidden=\"\" data-slot=\"collapsible-content\" class=\"story-content\"></div></div><div data-state=\"closed\" data-slot=\"collapsible\" class=\"story peach\"><div class=\"story-top\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-heart\" aria-hidden=\"true\"><path d=\"M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5\"></path></svg><span>02</span></div><p class=\"tag\">사람을 대하는 태도</p><h3>어려운 순간에도 친절하게</h3><p class=\"summary\">응대가 어려운 고객에게도 끝까지 친절을 지켰습니다.</p><button type=\"button\" aria-expanded=\"false\" data-state=\"closed\" data-slot=\"collapsible-trigger\" class=\"story-trigger\" aria-label=\"어려운 순간에도 친절하게 — 이야기 펼쳐보기\">이야기 펼쳐보기<!-- --> <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"M12 5v14\"></path></svg></button><div data-state=\"closed\" id=\"radix-_R_2idi_\" hidden=\"\" data-slot=\"collapsible-content\" class=\"story-content\"></div></div><div data-state=\"closed\" data-slot=\"collapsible\" class=\"story lilac\"><div class=\"story-top\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-compass\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z\"></path></svg><span>03</span></div><p class=\"tag\">끝까지 가는 호기심</p><h3>마지막 도전과제까지</h3><p class=\"summary\">게임 속 도전과제 100%를 향해 모험을 이어갔습니다.</p><button type=\"button\" aria-expanded=\"false\" data-state=\"closed\" data-slot=\"collapsible-trigger\" class=\"story-trigger\" aria-label=\"마지막 도전과제까지 — 이야기 펼쳐보기\">이야기 펼쳐보기<!-- --> <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"M12 5v14\"></path></svg></button><div data-state=\"closed\" id=\"radix-_R_3idi_\" hidden=\"\" data-slot=\"collapsible-content\" class=\"story-content\"></div></div></div></section><section id=\"project\" class=\"project\" aria-labelledby=\"project-title\"><div class=\"project-label\"><span class=\"small-label\">함께 만든 것</span><span class=\"role\">백엔드 API 담당</span></div><div class=\"project-copy\"><h2 id=\"project-title\">공주시립합창단 홈페이지</h2><p>홈페이지 제작 프로젝트에서 백엔드 API를 담당했습니다.</p></div><a class=\"project-link\" href=\"https://gongju.go.kr/gongjuchoir/\" target=\"_blank\" rel=\"noopener noreferrer\">결과물 보러 가기 <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg><span class=\"sr-only\"> (새 탭)</span></a></section><section class=\"vault-entry\" id=\"private\" aria-labelledby=\"vault-title\"><div><p class=\"small-label\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-lock-keyhole\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"16\" r=\"1\"></circle><rect x=\"3\" y=\"10\" width=\"18\" height=\"12\" rx=\"2\"></rect><path d=\"M7 10V7a5 5 0 0 1 10 0v3\"></path></svg> 나만 보는 자리</p><h2 id=\"vault-title\">나만의 메모함</h2><p>준비 중인 생각과 연습 기록은 이 안에 담아요.</p></div><div class=\"vault-entry-actions\"><a class=\"vault-button\" href=\"/private\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-fingerprint-pattern\" aria-hidden=\"true\"><path d=\"M12 10a2 2 0 0 0-2 2c0 1.02-.1 2.51-.26 4\"></path><path d=\"M14 13.12c0 2.38 0 6.38-1 8.88\"></path><path d=\"M17.29 21.02c.12-.6.43-2.3.5-3.02\"></path><path d=\"M2 12a10 10 0 0 1 18-6\"></path><path d=\"M2 16h.01\"></path><path d=\"M21.8 16c.2-2 .131-5.354 0-6\"></path><path d=\"M5 19.5C5.5 18 6 15 6 12a6 6 0 0 1 .34-2\"></path><path d=\"M8.65 22c.21-.66.45-1.32.57-2\"></path><path d=\"M9 6.8a6 6 0 0 1 9 5.2v2\"></path></svg> 패스키로 열기</a><p>비밀번호 없이, 등록한 패스키로만 열립니다.</p></div></section></main><footer><p>솜사탕 <span>·</span> 저를 알아가는 작은 한 페이지</p><p>닉네임, 관심사, 직접 고른 경험만 담았습니다.</p></footer><script type=\"module\" src=\"/@id/__x00__virtual:vite-rsc/entry-browser\" id=\"_R_\" async=\"\"></script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\":N1791266182453\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"10:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Fslot.js$$cache=uk5mmdcw40i\\\",[],\\\"Children\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1b:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Ferror-boundary.js$$cache=uk5mmdcw40i\\\",[],\\\"GlobalErrorBoundary\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1c:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Fdefault-global-error.js$$cache=uk5mmdcw40i\\\",[],\\\"default\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1e:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Ferror-boundary.js$$cache=uk5mmdcw40i\\\",[],\\\"ErrorBoundary\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"20:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Flayout-segment-context.js$$cache=uk5mmdcw40i\\\",[],\\\"LayoutSegmentProvider\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"22:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Fslot.js$$cache=uk5mmdcw40i\\\",[],\\\"Slot\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"24:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Ferror-boundary.js$$cache=uk5mmdcw40i\\\",[],\\\"NotFoundBoundary\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"2f:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Fapp-router-scroll.js$$cache=uk5mmdcw40i\\\",[],\\\"AppRouterScrollTarget\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"31:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Ferror-boundary.js$$cache=uk5mmdcw40i\\\",[],\\\"RedirectBoundary\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"2:{\\\"name\\\":\\\"AwaitAppRenderDependencies\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"stack\\\":[],\\\"props\\\":{}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"4:{\\\"name\\\":\\\"AppComponentDependencyBarrier\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"stack\\\":[],\\\"props\\\":{}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"6:{\\\"name\\\":\\\"\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"owner\\\":\\\"$4\\\",\\\"stack\\\":[[\\\"default\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/layout.tsx\\\",40,26,36,3,false]],\\\"props\\\":{}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"a:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Fslot.js$$cache=uk5mmdcw40i\\\",[],\\\"Children\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"b:{}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"c:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"8:{\\\"name\\\":\\\"RootLayout\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"owner\\\":\\\"$4\\\",\\\"stack\\\":[[\\\"default\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/layout.tsx\\\",44,26,36,3,false]],\\\"props\\\":{\\\"params\\\":\\\"$@9\\\",\\\"children\\\":[\\\"$\\\",\\\"$La\\\",null,\\\"$b\\\",null,\\\"$c\\\",0]}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"d:[[\\\"RootLayout\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/layout.tsx\\\",15,25,14,1,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"e:[[\\\"RootLayout\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/layout.tsx\\\",17,29,14,1,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"f:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"11:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"13:{\\\"name\\\":\\\"MetadataHead\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"stack\\\":[],\\\"props\\\":{\\\"metadata\\\":{\\\"description\\\":\\\"솜사탕의 관심사와 경험, 패스키로 여는 나만의 메모함.\\\",\\\"icons\\\":{\\\"icon\\\":\\\"/favicon.svg\\\"},\\\"title\\\":\\\"솜사탕의 작은 이야기\\\"},\\\"pathname\\\":\\\"/\\\",\\\"trailingSlash\\\":false}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"14:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"15:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"16:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"18:{\\\"name\\\":\\\"ViewportHead\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"stack\\\":[],\\\"props\\\":{\\\"viewport\\\":{\\\"width\\\":\\\"device-width\\\",\\\"initialScale\\\":1,\\\"themeColor\\\":null,\\\"colorScheme\\\":null}}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"19:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1a:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1d:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1f:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"21:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"23:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"26:{\\\"name\\\":\\\"DefaultNotFound\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"stack\\\":[],\\\"props\\\":{}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"27:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"28:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"29:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"2a:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"2b:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"2c:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"2d:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"2e:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"30:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"32:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"33:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1:D{\\\"time\\\":1}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1:D\\\"$2\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"3:D{\\\"time\\\":1}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"3:D\\\"$4\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"3:D{\\\"time\\\":1}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"5:D{\\\"time\\\":1}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"5:D\\\"$6\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"7:D{\\\"time\\\":1}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"7:D\\\"$8\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"7:D{\\\"time\\\":1}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"7:[\\\"$\\\",\\\"html\\\",null,{\\\"lang\\\":\\\"ko\\\",\\\"children\\\":[\\\"$\\\",\\\"body\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L10\\\",null,{},null,\\\"$f\\\",1]},\\\"$8\\\",\\\"$e\\\",1]},\\\"$8\\\",\\\"$d\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"3:[\\\"$L5\\\",\\\"$7\\\"]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"12:D{\\\"time\\\":2}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"12:D\\\"$13\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"12:D{\\\"time\\\":2}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"12:[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"솜사탕의 작은 이야기\\\"},\\\"$13\\\",\\\"$14\\\",0],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"솜사탕의 관심사와 경험, 패스키로 여는 나만의 메모함.\\\"},\\\"$13\\\",\\\"$15\\\",0],[\\\"$\\\",\\\"link\\\",\\\"2\\\",{\\\"data-vinext-streamed-icon\\\":\\\"$undefined\\\",\\\"rel\\\":\\\"icon\\\",\\\"href\\\":\\\"/favicon.svg\\\",\\\"type\\\":\\\"$undefined\\\",\\\"sizes\\\":\\\"$undefined\\\",\\\"color\\\":\\\"$undefined\\\",\\\"media\\\":\\\"$undefined\\\",\\\"fetchPriority\\\":\\\"$undefined\\\"},\\\"$13\\\",\\\"$16\\\",0]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"17:D{\\\"time\\\":2}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"17:D\\\"$18\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"17:D{\\\"time\\\":2}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"17:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial-scale=1\\\"},\\\"$18\\\",\\\"$19\\\",0]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"25:D{\\\"time\\\":2}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"25:D\\\"$26\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"25:D{\\\"time\\\":2}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"25:[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"404: This page could not be found.\\\"},\\\"$26\\\",\\\"$27\\\",1],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"fontFamily\\\":\\\"system-ui,\\\\\\\"Segoe UI\\\\\\\",Roboto,Helvetica,Arial,sans-serif,\\\\\\\"Apple Color Emoji\\\\\\\",\\\\\\\"Segoe UI Emoji\\\\\\\"\\\",\\\"height\\\":\\\"100vh\\\",\\\"textAlign\\\":\\\"center\\\",\\\"display\\\":\\\"flex\\\",\\\"flexDirection\\\":\\\"column\\\",\\\"alignItems\\\":\\\"center\\\",\\\"justifyContent\\\":\\\"center\\\"},\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"style\\\",null,{\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\\\"}},\\\"$26\\\",\\\"$2a\\\",1],[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"next-error-h1\\\",\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\",\\\"margin\\\":\\\"0 20px 0 0\\\",\\\"padding\\\":\\\"0 23px 0 0\\\",\\\"fontSize\\\":24,\\\"fontWeight\\\":500,\\\"verticalAlign\\\":\\\"top\\\",\\\"lineHeight\\\":\\\"49px\\\"},\\\"children\\\":404},\\\"$26\\\",\\\"$2b\\\",1],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\"},\\\"children\\\":[\\\"$\\\",\\\"h2\\\",null,{\\\"style\\\":{\\\"fontSize\\\":14,\\\"fontWeight\\\":400,\\\"lineHeight\\\":\\\"49px\\\",\\\"margin\\\":0},\\\"children\\\":\\\"This page could not be found.\\\"},\\\"$26\\\",\\\"$2d\\\",1]},\\\"$26\\\",\\\"$2c\\\",1]]},\\\"$26\\\",\\\"$29\\\",1]},\\\"$26\\\",\\\"$28\\\",1]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"0:{\\\"page:/\\\":\\\"$L1\\\",\\\"layout:/\\\":\\\"$3\\\",\\\"route:/\\\":[[[\\\"$\\\",\\\"meta\\\",null,{\\\"charSet\\\":\\\"utf-8\\\"},null,\\\"$11\\\",1],\\\"$12\\\",\\\"$17\\\"],[\\\"$\\\",\\\"$L1b\\\",null,{\\\"fallback\\\":\\\"$1c\\\",\\\"children\\\":[\\\"$\\\",\\\"$L1e\\\",null,{\\\"fallback\\\":\\\"$1c\\\",\\\"children\\\":[\\\"$\\\",\\\"$L20\\\",null,{\\\"providerId\\\":\\\"layout:/\\\",\\\"segmentMap\\\":{\\\"children\\\":[]},\\\"children\\\":[\\\"$\\\",\\\"$L22\\\",null,{\\\"id\\\":\\\"layout:/\\\",\\\"parallelSlots\\\":\\\"$undefined\\\",\\\"children\\\":[\\\"$\\\",\\\"$L24\\\",null,{\\\"resetKey\\\":\\\"\\\",\\\"fallback\\\":\\\"$25\\\",\\\"children\\\":[\\\"$\\\",\\\"$L2f\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L31\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"$L20\\\",null,{\\\"providerId\\\":\\\"page:/\\\",\\\"segmentMap\\\":{\\\"children\\\":[\\\"__PAGE__\\\"]},\\\"children\\\":[\\\"$\\\",\\\"$L22\\\",null,{\\\"id\\\":\\\"page:/\\\"},null,\\\"$33\\\",1]},null,\\\"$32\\\",1],null]},null,\\\"$30\\\",1]},null,\\\"$2e\\\",1]},null,\\\"$23\\\",1]},null,\\\"$21\\\",1]},null,\\\"$1f\\\",1]},null,\\\"$1d\\\",1]},null,\\\"$1a\\\",1],null,null],\\\"__route\\\":\\\"route:/\\\",\\\"__interceptionContext\\\":null,\\\"__layoutIds\\\":[\\\"layout:/\\\"],\\\"__rootLayout\\\":\\\"/\\\",\\\"__bfcacheSegmentIdentities\\\":{\\\"layout:/\\\":\\\"[\\\\\\\"layout\\\\\\\",\\\\\\\"layout:/\\\\\\\",\\\\\\\"root-boundary:/\\\\\\\",\\\\\\\"\\\\\\\"]\\\",\\\"page:/\\\":\\\"[\\\\\\\"page\\\\\\\",\\\\\\\"page:/\\\\\\\",\\\\\\\"root-boundary:/\\\\\\\",\\\\\\\"\\\\\\\"]\\\"},\\\"__srcPage\\\":[\\\"page\\\"],\\\"__layoutFlags\\\":{\\\"layout:/\\\":\\\"s\\\"},\\\"__artifactCompatibility\\\":{\\\"schemaVersion\\\":1,\\\"graphVersion\\\":\\\"app-route-graph:1177fd80f83fa7b0\\\",\\\"deploymentVersion\\\":\\\"6cce7a01-275e-4842-a873-7b76abf6109c\\\",\\\"appElementsSchemaVersion\\\":1,\\\"rscPayloadSchemaVersion\\\":1,\\\"rootBoundaryId\\\":\\\"/\\\",\\\"renderEpoch\\\":null},\\\"__dynamicStaleTime\\\":0}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"35:I[\\\"/app/page.tsx$$cache=uk5mmdcw40i\\\",[],\\\"default\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"9:{}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"34:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1:D{\\\"time\\\":3}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1:[\\\"$\\\",\\\"$L35\\\",null,{\\\"params\\\":\\\"$@36\\\",\\\"searchParams\\\":\\\"$@37\\\"},null,\\\"$34\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"36:D{\\\"time\\\":3}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"36:{}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"37:D{\\\"time\\\":3}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"37:{}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"3b:I[\\\"/@id/__x00__virtual:vite-rsc/remove-duplicate-server-css$$cache=uk5mmdcw40i\\\",[],\\\"default\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\":HL[\\\"/app/globals.css\\\",\\\"style\\\"     ]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"38:{\\\"name\\\":\\\"Resources\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"owner\\\":\\\"$6\\\",\\\"stack\\\":[[\\\"\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/layout.tsx\\\",42,41,40,40,false]],\\\"props\\\":{}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"39:[[\\\"\\\",\\\"\\\\u0000virtual:vite-rsc/css?type=rsc\\u0026id=C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fapp%2Flayout.tsx\\u0026lang.js\\\",8,85,8,69,false],[\\\"Resources\\\",\\\"\\\\u0000virtual:vite-rsc/css?type=rsc\\u0026id=C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fapp%2Flayout.tsx\\u0026lang.js\\\",8,65,7,9,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"3a:[[\\\"Resources\\\",\\\"\\\\u0000virtual:vite-rsc/css?type=rsc\\u0026id=C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fapp%2Flayout.tsx\\u0026lang.js\\\",14,42,7,9,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"5:D{\\\"time\\\":11}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"5:D\\\"$38\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"5:D{\\\"time\\\":11}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"5:[[\\\"$\\\",\\\"link\\\",\\\"css:/app/globals.css\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"precedence\\\":\\\"vite-rsc/importer-resources\\\",\\\"href\\\":\\\"/app/globals.css\\\",\\\"data-rsc-css-href\\\":\\\"/app/globals.css\\\"},\\\"$38\\\",\\\"$39\\\",0],[\\\"$\\\",\\\"$L3b\\\",\\\"remove-duplicate-css\\\",{},\\\"$38\\\",\\\"$3a\\\",0]]\\n\")</script><script>Object.assign(((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}),{\"initialCacheKind\":\"dynamic\",\"dynamicStaleTimeSeconds\":0});((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).done=true</script></body></html>"
+        },
+        "Cache-Control": null,
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/private",
+        "headers": {},
+        "body": null
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "text": "<!DOCTYPE html><html lang=\"ko\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"stylesheet\" href=\"/app/globals.css\" data-rsc-css-href=\"/app/globals.css\" data-precedence=\"vite-rsc/importer-resources\"/><link rel=\"modulepreload\" fetchPriority=\"low\" href=\"/@id/__x00__virtual:vite-rsc/entry-browser\"/><title>솜사탕의 작은 이야기</title><meta name=\"description\" content=\"솜사탕의 관심사와 경험, 패스키로 여는 나만의 메모함.\"/><link rel=\"icon\" href=\"/favicon.svg\"/><script>Object.assign(((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}),{params:{},nav:{\"pathname\":\"/private\",\"searchParams\":[]}})</script><link rel=\"modulepreload\" href=\"/@id/__x00__virtual:vite-rsc/entry-browser\" />\n</head><body><a class=\"skip\" href=\"#main\">본문으로 바로 가기</a><header class=\"top\"><a class=\"wordmark\" href=\"/\">솜사탕<span>의 작은 이야기</span></a><nav aria-label=\"페이지 메뉴\"><a href=\"/\">공개 소개 보기</a></nav></header><main class=\"private-page\" id=\"main\" tabindex=\"-1\"><div class=\"room-heading\"><div><p class=\"small-label\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-lock-keyhole\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"16\" r=\"1\"></circle><rect x=\"3\" y=\"10\" width=\"18\" height=\"12\" rx=\"2\"></rect><path d=\"M7 10V7a5 5 0 0 1 10 0v3\"></path></svg> 나만 보는 자리</p><h1>나만의 메모함</h1></div><span class=\"lock-badge \">확인 중</span></div><div class=\"locked-room\" aria-busy=\"true\"><p>메모함 상태를 확인하고 있어요.</p></div><aside class=\"recovery-note\"><h3>패스키를 모두 잃어버렸다면</h3><p>이 메모함은 비밀번호나 이메일로 복구할 수 없어요. 사용할 수 있는 패스키가 하나도 없으면 기존 메모함에 다시 들어갈 수 없습니다. 그때는 새 메모함을 만들어야 해요.</p><p>마지막 패스키는 삭제할 수 없어요. 다른 패스키를 먼저 추가해 주세요. 동기화된 같은 패스키가 두 기기에 보이는 것은 예비 패스키 두 개를 등록한 것과 다를 수 있어요.</p></aside></main><footer><p>솜사탕 · 나만의 메모함</p><p>실제 개인정보를 넣지 않는 연습용 공간입니다.</p></footer><script type=\"module\" src=\"/@id/__x00__virtual:vite-rsc/entry-browser\" id=\"_R_\" async=\"\"></script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\":N1791266182551\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"2:{\\\"name\\\":\\\"PageInvoker\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"stack\\\":[],\\\"props\\\":{}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"3:{\\\"name\\\":\\\"AwaitAppRenderDependencies\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"owner\\\":\\\"$2\\\",\\\"stack\\\":[],\\\"props\\\":{}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"5:{\\\"name\\\":\\\"AwaitAppRenderDependencies\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"stack\\\":[],\\\"props\\\":{}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"7:{\\\"name\\\":\\\"AwaitAppRenderDependencies\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"stack\\\":[],\\\"props\\\":{}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1:D{\\\"time\\\":1}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1:D\\\"$2\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1:D\\\"$3\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"4:D{\\\"time\\\":1}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"4:D\\\"$5\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"6:D{\\\"time\\\":1}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"6:D\\\"$7\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"0:{\\\"page:/private\\\":\\\"$L1\\\",\\\"layout:/\\\":\\\"$L4\\\",\\\"route:/private\\\":\\\"$L6\\\",\\\"__route\\\":\\\"route:/private\\\",\\\"__interceptionContext\\\":null,\\\"__layoutIds\\\":[\\\"layout:/\\\"],\\\"__rootLayout\\\":\\\"/\\\",\\\"__bfcacheSegmentIdentities\\\":{\\\"layout:/\\\":\\\"[\\\\\\\"layout\\\\\\\",\\\\\\\"layout:/\\\\\\\",\\\\\\\"root-boundary:/\\\\\\\",\\\\\\\"\\\\\\\"]\\\",\\\"page:/private\\\":\\\"[\\\\\\\"page\\\\\\\",\\\\\\\"page:/private\\\\\\\",\\\\\\\"root-boundary:/\\\\\\\",\\\\\\\"[\\\\\\\\\\\\\\\"private\\\\\\\\\\\\\\\"]\\\\\\\"]\\\"},\\\"__srcPage\\\":[\\\"private\\\",\\\"page\\\"],\\\"__layoutFlags\\\":{\\\"layout:/\\\":\\\"s\\\"},\\\"__artifactCompatibility\\\":{\\\"schemaVersion\\\":1,\\\"graphVersion\\\":\\\"app-route-graph:626a1ec898683ac8\\\",\\\"deploymentVersion\\\":\\\"6cce7a01-275e-4842-a873-7b76abf6109c\\\",\\\"appElementsSchemaVersion\\\":1,\\\"rscPayloadSchemaVersion\\\":1,\\\"rootBoundaryId\\\":\\\"/\\\",\\\"renderEpoch\\\":null},\\\"__dynamicStaleTime\\\":0}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"14:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Fslot.js$$cache=sszly29qu4\\\",[],\\\"Children\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1f:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Ferror-boundary.js$$cache=sszly29qu4\\\",[],\\\"GlobalErrorBoundary\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"20:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Fdefault-global-error.js$$cache=sszly29qu4\\\",[],\\\"default\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"22:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Ferror-boundary.js$$cache=sszly29qu4\\\",[],\\\"ErrorBoundary\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"24:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Flayout-segment-context.js$$cache=sszly29qu4\\\",[],\\\"LayoutSegmentProvider\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"26:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Fslot.js$$cache=sszly29qu4\\\",[],\\\"Slot\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"28:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Ferror-boundary.js$$cache=sszly29qu4\\\",[],\\\"NotFoundBoundary\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"33:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Fapp-router-scroll.js$$cache=sszly29qu4\\\",[],\\\"AppRouterScrollTarget\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"35:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Ferror-boundary.js$$cache=sszly29qu4\\\",[],\\\"RedirectBoundary\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"8:{\\\"name\\\":\\\"AppComponentDependencyBarrier\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"stack\\\":[],\\\"props\\\":{}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"a:{\\\"name\\\":\\\"\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"owner\\\":\\\"$8\\\",\\\"stack\\\":[[\\\"default\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/layout.tsx\\\",40,26,36,3,false]],\\\"props\\\":{}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"e:I[\\\"/@id/__x00__virtual:vite-rsc/client-in-server-package-proxy/C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fnode_modules%2Fvinext%2Fdist%2Fshims%2Fslot.js$$cache=sszly29qu4\\\",[],\\\"Children\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"f:{}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"10:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"c:{\\\"name\\\":\\\"RootLayout\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"owner\\\":\\\"$8\\\",\\\"stack\\\":[[\\\"default\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/layout.tsx\\\",44,26,36,3,false]],\\\"props\\\":{\\\"params\\\":\\\"$@d\\\",\\\"children\\\":[\\\"$\\\",\\\"$Le\\\",null,\\\"$f\\\",null,\\\"$10\\\",0]}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"11:[[\\\"RootLayout\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/layout.tsx\\\",15,25,14,1,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"12:[[\\\"RootLayout\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/layout.tsx\\\",17,29,14,1,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"13:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"15:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"17:{\\\"name\\\":\\\"MetadataHead\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"stack\\\":[],\\\"props\\\":{\\\"metadata\\\":{\\\"description\\\":\\\"솜사탕의 관심사와 경험, 패스키로 여는 나만의 메모함.\\\",\\\"icons\\\":{\\\"icon\\\":\\\"/favicon.svg\\\"},\\\"title\\\":\\\"솜사탕의 작은 이야기\\\"},\\\"pathname\\\":\\\"/private\\\",\\\"trailingSlash\\\":false}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"18:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"19:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1a:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1c:{\\\"name\\\":\\\"ViewportHead\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"stack\\\":[],\\\"props\\\":{\\\"viewport\\\":{\\\"width\\\":\\\"device-width\\\",\\\"initialScale\\\":1,\\\"themeColor\\\":null,\\\"colorScheme\\\":null}}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1d:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1e:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"21:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"23:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"25:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"27:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"2a:{\\\"name\\\":\\\"DefaultNotFound\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"stack\\\":[],\\\"props\\\":{}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"2b:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"2c:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"2d:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"2e:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"2f:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"30:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"31:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"32:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"34:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"36:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"37:[]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"4:D{\\\"time\\\":2}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"4:D\\\"$8\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"4:D{\\\"time\\\":2}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"9:D{\\\"time\\\":2}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"9:D\\\"$a\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"b:D{\\\"time\\\":2}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"b:D\\\"$c\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"b:D{\\\"time\\\":2}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"b:[\\\"$\\\",\\\"html\\\",null,{\\\"lang\\\":\\\"ko\\\",\\\"children\\\":[\\\"$\\\",\\\"body\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L14\\\",null,{},null,\\\"$13\\\",1]},\\\"$c\\\",\\\"$12\\\",1]},\\\"$c\\\",\\\"$11\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"4:[\\\"$L9\\\",\\\"$b\\\"]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"6:D{\\\"time\\\":2}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"16:D{\\\"time\\\":2}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"16:D\\\"$17\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"16:D{\\\"time\\\":2}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"16:[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"솜사탕의 작은 이야기\\\"},\\\"$17\\\",\\\"$18\\\",0],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"솜사탕의 관심사와 경험, 패스키로 여는 나만의 메모함.\\\"},\\\"$17\\\",\\\"$19\\\",0],[\\\"$\\\",\\\"link\\\",\\\"2\\\",{\\\"data-vinext-streamed-icon\\\":\\\"$undefined\\\",\\\"rel\\\":\\\"icon\\\",\\\"href\\\":\\\"/favicon.svg\\\",\\\"type\\\":\\\"$undefined\\\",\\\"sizes\\\":\\\"$undefined\\\",\\\"color\\\":\\\"$undefined\\\",\\\"media\\\":\\\"$undefined\\\",\\\"fetchPriority\\\":\\\"$undefined\\\"},\\\"$17\\\",\\\"$1a\\\",0]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1b:D{\\\"time\\\":2}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1b:D\\\"$1c\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1b:D{\\\"time\\\":2}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1b:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial-scale=1\\\"},\\\"$1c\\\",\\\"$1d\\\",0]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"29:D{\\\"time\\\":3}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"29:D\\\"$2a\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"29:D{\\\"time\\\":3}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"29:[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"404: This page could not be found.\\\"},\\\"$2a\\\",\\\"$2b\\\",1],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"fontFamily\\\":\\\"system-ui,\\\\\\\"Segoe UI\\\\\\\",Roboto,Helvetica,Arial,sans-serif,\\\\\\\"Apple Color Emoji\\\\\\\",\\\\\\\"Segoe UI Emoji\\\\\\\"\\\",\\\"height\\\":\\\"100vh\\\",\\\"textAlign\\\":\\\"center\\\",\\\"display\\\":\\\"flex\\\",\\\"flexDirection\\\":\\\"column\\\",\\\"alignItems\\\":\\\"center\\\",\\\"justifyContent\\\":\\\"center\\\"},\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"style\\\",null,{\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\\\"}},\\\"$2a\\\",\\\"$2e\\\",1],[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"next-error-h1\\\",\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\",\\\"margin\\\":\\\"0 20px 0 0\\\",\\\"padding\\\":\\\"0 23px 0 0\\\",\\\"fontSize\\\":24,\\\"fontWeight\\\":500,\\\"verticalAlign\\\":\\\"top\\\",\\\"lineHeight\\\":\\\"49px\\\"},\\\"children\\\":404},\\\"$2a\\\",\\\"$2f\\\",1],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\"},\\\"children\\\":[\\\"$\\\",\\\"h2\\\",null,{\\\"style\\\":{\\\"fontSize\\\":14,\\\"fontWeight\\\":400,\\\"lineHeight\\\":\\\"49px\\\",\\\"margin\\\":0},\\\"children\\\":\\\"This page could not be found.\\\"},\\\"$2a\\\",\\\"$31\\\",1]},\\\"$2a\\\",\\\"$30\\\",1]]},\\\"$2a\\\",\\\"$2d\\\",1]},\\\"$2a\\\",\\\"$2c\\\",1]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"6:[[[\\\"$\\\",\\\"meta\\\",null,{\\\"charSet\\\":\\\"utf-8\\\"},null,\\\"$15\\\",1],\\\"$16\\\",\\\"$1b\\\"],[\\\"$\\\",\\\"$L1f\\\",null,{\\\"fallback\\\":\\\"$20\\\",\\\"children\\\":[\\\"$\\\",\\\"$L22\\\",null,{\\\"fallback\\\":\\\"$20\\\",\\\"children\\\":[\\\"$\\\",\\\"$L24\\\",null,{\\\"providerId\\\":\\\"layout:/\\\",\\\"segmentMap\\\":{\\\"children\\\":[\\\"private\\\"]},\\\"children\\\":[\\\"$\\\",\\\"$L26\\\",null,{\\\"id\\\":\\\"layout:/\\\",\\\"parallelSlots\\\":\\\"$undefined\\\",\\\"children\\\":[\\\"$\\\",\\\"$L28\\\",null,{\\\"resetKey\\\":\\\"private\\\",\\\"fallback\\\":\\\"$29\\\",\\\"children\\\":[\\\"$\\\",\\\"$L33\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L35\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"$L24\\\",null,{\\\"providerId\\\":\\\"page:/private\\\",\\\"segmentMap\\\":{\\\"children\\\":[\\\"__PAGE__\\\"]},\\\"children\\\":[\\\"$\\\",\\\"$L26\\\",null,{\\\"id\\\":\\\"page:/private\\\"},null,\\\"$37\\\",1]},null,\\\"$36\\\",1],null]},null,\\\"$34\\\",1]},null,\\\"$32\\\",1]},null,\\\"$27\\\",1]},null,\\\"$25\\\",1]},null,\\\"$23\\\",1]},null,\\\"$21\\\",1]},null,\\\"$1e\\\",1],null,null]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"3f:I[\\\"/components/private-room.tsx?t=1791266125002$$cache=sszly29qu4\\\",[],\\\"PrivateRoom\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"d:{}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"38:[[\\\"PrivatePage\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/private/page.tsx\\\",9,19,7,1,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"39:[[\\\"PrivatePage\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/private/page.tsx\\\",18,19,7,1,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"3a:[[\\\"PrivatePage\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/private/page.tsx\\\",20,31,7,1,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"3b:[[\\\"PrivatePage\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/private/page.tsx\\\",23,39,7,1,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"3c:[[\\\"PrivatePage\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/private/page.tsx\\\",32,30,7,1,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"3d:[[\\\"PrivatePage\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/private/page.tsx\\\",34,31,7,1,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"3e:[[\\\"PrivatePage\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/private/page.tsx\\\",52,19,7,1,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"40:[[\\\"PrivatePage\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/private/page.tsx\\\",57,19,7,1,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"41:[[\\\"PrivatePage\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/private/page.tsx\\\",57,66,7,1,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"42:[[\\\"PrivatePage\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/private/page.tsx\\\",61,29,7,1,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1:D{\\\"time\\\":3}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"1:[[\\\"$\\\",\\\"a\\\",null,{\\\"className\\\":\\\"skip\\\",\\\"href\\\":\\\"#main\\\",\\\"children\\\":\\\"본문으로 바로 가기\\\"},\\\"$2\\\",\\\"$38\\\",1],[\\\"$\\\",\\\"header\\\",null,{\\\"className\\\":\\\"top\\\",\\\"children\\\":[[\\\"$\\\",\\\"a\\\",null,{\\\"className\\\":\\\"wordmark\\\",\\\"href\\\":\\\"/\\\",\\\"children\\\":[\\\"솜사탕\\\",[\\\"$\\\",\\\"span\\\",null,{\\\"children\\\":\\\"의 작은 이야기\\\"},\\\"$2\\\",\\\"$3b\\\",1]]},\\\"$2\\\",\\\"$3a\\\",1],[\\\"$\\\",\\\"nav\\\",null,{\\\"aria-label\\\":\\\"페이지 메뉴\\\",\\\"children\\\":[\\\"$\\\",\\\"a\\\",null,{\\\"href\\\":\\\"/\\\",\\\"children\\\":\\\"공개 소개 보기\\\"},\\\"$2\\\",\\\"$3d\\\",1]},\\\"$2\\\",\\\"$3c\\\",1]]},\\\"$2\\\",\\\"$39\\\",1],[\\\"$\\\",\\\"$L3f\\\",null,{},\\\"$2\\\",\\\"$3e\\\",1],[\\\"$\\\",\\\"footer\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"children\\\":\\\"솜사탕 · 나만의 메모함\\\"},\\\"$2\\\",\\\"$41\\\",1],[\\\"$\\\",\\\"p\\\",null,{\\\"children\\\":\\\"실제 개인정보를 넣지 않는 연습용 공간입니다.\\\"},\\\"$2\\\",\\\"$42\\\",1]]},\\\"$2\\\",\\\"$40\\\",1]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"46:I[\\\"/@id/__x00__virtual:vite-rsc/remove-duplicate-server-css$$cache=sszly29qu4\\\",[],\\\"default\\\",1]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\":HL[\\\"/app/globals.css\\\",\\\"style\\\"     ]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"43:{\\\"name\\\":\\\"Resources\\\",\\\"key\\\":null,\\\"env\\\":\\\"Server\\\",\\\"owner\\\":\\\"$a\\\",\\\"stack\\\":[[\\\"\\\",\\\"C:/Users/User/Documents/ChatGPT/Ritual_assignment/task08-passkey/site/app/layout.tsx\\\",42,41,40,40,false]],\\\"props\\\":{}}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"44:[[\\\"\\\",\\\"\\\\u0000virtual:vite-rsc/css?type=rsc\\u0026id=C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fapp%2Flayout.tsx\\u0026lang.js\\\",8,85,8,69,false],[\\\"Resources\\\",\\\"\\\\u0000virtual:vite-rsc/css?type=rsc\\u0026id=C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fapp%2Flayout.tsx\\u0026lang.js\\\",8,65,7,9,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"45:[[\\\"Resources\\\",\\\"\\\\u0000virtual:vite-rsc/css?type=rsc\\u0026id=C%3A%2FUsers%2FUser%2FDocuments%2FChatGPT%2FRitual_assignment%2Ftask08-passkey%2Fsite%2Fapp%2Flayout.tsx\\u0026lang.js\\\",14,42,7,9,false]]\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"9:D{\\\"time\\\":8}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"9:D\\\"$43\\\"\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"9:D{\\\"time\\\":8}\\n\")</script><script>((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).rsc.push(\"9:[[\\\"$\\\",\\\"link\\\",\\\"css:/app/globals.css\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"precedence\\\":\\\"vite-rsc/importer-resources\\\",\\\"href\\\":\\\"/app/globals.css\\\",\\\"data-rsc-css-href\\\":\\\"/app/globals.css\\\"},\\\"$43\\\",\\\"$44\\\",0],[\\\"$\\\",\\\"$L46\\\",\\\"remove-duplicate-css\\\",{},\\\"$43\\\",\\\"$45\\\",0]]\\n\")</script><script>Object.assign(((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}),{\"initialCacheKind\":\"static\"});((self[Symbol.for(\"vinext.navigationRuntime\")]??={bootstrap:{routeManifest:null},functions:{}}).bootstrap.rsc??={rsc:[]}).done=true</script></body></html>"
+        },
+        "Cache-Control": null,
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/private/notes",
+        "headers": {},
+        "body": null
+      },
+      "response": {
+        "status": 401,
+        "body": {
+          "error": "LOGIN_REQUIRED",
+          "message": "패스키로 메모함을 먼저 열어 주세요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/passkey/keys",
+        "headers": {},
+        "body": null
+      },
+      "response": {
+        "status": 401,
+        "body": {
+          "error": "LOGIN_REQUIRED",
+          "message": "패스키로 메모함을 먼저 열어 주세요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/passkey/evidence",
+        "headers": {},
+        "body": null
+      },
+      "response": {
+        "status": 401,
+        "body": {
+          "error": "LOGIN_REQUIRED",
+          "message": "패스키로 메모함을 먼저 열어 주세요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/register/options",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "mode": "register",
+          "keyName": "bad",
+          "storage": "기기 자체"
+        }
+      },
+      "response": {
+        "status": 401,
+        "body": {
+          "error": "LOGIN_REQUIRED",
+          "message": "패스키 추가는 로그인한 뒤 할 수 있어요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/options",
+        "headers": {
+          "Origin": "https://example.invalid",
+          "Content-Type": "application/json"
+        },
+        "body": {}
+      },
+      "response": {
+        "status": 403,
+        "body": {
+          "text": "Forbidden"
+        },
+        "Cache-Control": null,
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/options",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json"
+        },
+        "body": {}
+      },
+      "response": {
+        "status": 415,
+        "body": {
+          "error": "JSON_REQUIRED",
+          "message": "요청 형식을 확인해 주세요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/register/options",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "mode": "signup",
+          "displayName": "취소연습",
+          "keyName": "취소할 키",
+          "storage": "기기 자체"
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "options": {
+            "challenge": "59QugGTnfSqfpzt2RFyTuGIx_LueuWqD7xpa8a5zROQ",
+            "rp": {
+              "name": "솜사탕의 나만의 메모함",
+              "id": "127.0.0.1"
+            },
+            "user": {
+              "id": "YjhiZDYwMmMtNjgwZS00NTFlLWFmNTUtYTFmNzk5NjAzMGNi",
+              "name": "취소연습 · b8bd602c",
+              "displayName": "취소연습"
+            },
+            "pubKeyCredParams": [
+              {
+                "alg": -7,
+                "type": "public-key"
+              },
+              {
+                "alg": -257,
+                "type": "public-key"
+              }
+            ],
+            "timeout": 60000,
+            "attestation": "none",
+            "excludeCredentials": [],
+            "authenticatorSelection": {
+              "residentKey": "required",
+              "userVerification": "required",
+              "requireResidentKey": true,
+              "authenticatorAttachment": "platform"
+            },
+            "extensions": {
+              "credProps": true
+            },
+            "hints": [
+              "client-device"
+            ]
+          },
+          "expiresIn": 300
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/cancel",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json"
+        },
+        "body": {}
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "cancelled": true
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/register/verify",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "response": {
+            "id": "ASrRNEh5Pzqe_cyh6a3QQQTGc0gKZIvyqMekalwoqCc",
+            "rawId": "ASrRNEh5Pzqe_cyh6a3QQQTGc0gKZIvyqMekalwoqCc",
+            "type": "public-key",
+            "clientExtensionResults": {
+              "credProps": {
+                "rk": true
+              }
+            },
+            "authenticatorAttachment": "platform",
+            "response": {
+              "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uY3JlYXRlIiwiY2hhbGxlbmdlIjoiNTlRdWdHVG5mU3FmcHp0MlJGeVR1R0l4X0x1ZXVXcUQ3eHBhOGE1elJPUSIsIm9yaWdpbiI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3OCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
+              "attestationObject": "o2NmbXRkbm9uZWdhdHRTdG10oGhhdXRoRGF0YVikEsoXtJryKJQ28wPgFmAwoh5SXSZuIJJnQzgBqP1AcaBFAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAEq0TRIeT86nv3Moemt0EEExnNICmSL8qjHpGpcKKgnpQECAyYgASFYIMHsFetQVEi0wyG0Ex0FUvh_XIHsCZhCzKuvdORZH_c9IlggiIJhcPOtPVfJY26VDMju7tRFSNOimdE6v8cuQFaVfng",
+              "transports": [
+                "internal"
+              ]
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 400,
+        "body": {
+          "error": "CHALLENGE_INVALID",
+          "message": "요청이 만료됐어요. 다시 시도해 주세요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/passkey/session",
+        "headers": {},
+        "body": null
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "user": null
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/register/options",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "mode": "signup",
+          "displayName": "연습A",
+          "keyName": "합성 테스트 키 1",
+          "storage": "기기 자체"
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "options": {
+            "challenge": "hqf1KiLwGuMH5n6BkRb92Y-q6uSWcr4ykr1aZBSF5lU",
+            "rp": {
+              "name": "솜사탕의 나만의 메모함",
+              "id": "127.0.0.1"
+            },
+            "user": {
+              "id": "ZWVkYWI4YzctMDNkMC00MWQyLWJhZWYtZjBmZjQ5YWU2YTBh",
+              "name": "연습A · eedab8c7",
+              "displayName": "연습A"
+            },
+            "pubKeyCredParams": [
+              {
+                "alg": -7,
+                "type": "public-key"
+              },
+              {
+                "alg": -257,
+                "type": "public-key"
+              }
+            ],
+            "timeout": 60000,
+            "attestation": "none",
+            "excludeCredentials": [],
+            "authenticatorSelection": {
+              "residentKey": "required",
+              "userVerification": "required",
+              "requireResidentKey": true,
+              "authenticatorAttachment": "platform"
+            },
+            "extensions": {
+              "credProps": true
+            },
+            "hints": [
+              "client-device"
+            ]
+          },
+          "expiresIn": 300
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/register/verify",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "response": {
+            "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "rawId": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "type": "public-key",
+            "clientExtensionResults": {
+              "credProps": {
+                "rk": true
+              }
+            },
+            "authenticatorAttachment": "platform",
+            "response": {
+              "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uY3JlYXRlIiwiY2hhbGxlbmdlIjoiaHFmMUtpTHdHdU1INW42QmtSYjkyWS1xNnVTV2NyNHlrcjFhWkJTRjVsVSIsIm9yaWdpbiI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3OCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
+              "attestationObject": "o2NmbXRkbm9uZWdhdHRTdG10oGhhdXRoRGF0YVikEsoXtJryKJQ28wPgFmAwoh5SXSZuIJJnQzgBqP1AcaBFAAAAAAAAAAAAAAAAAAAAAAAAAAAAIOrtz1Sw0inblp04XY86hQ6qHZ9G42sYO2pNyRcZAUD4pQECAyYgASFYIPHDMT7lAvtf7uYyd6-qlmqO-5Ab9a_siBdJXs78O4UoIlgghnxZlPeKRa8zHAKSeOjuYry6vGk4iGy1KvqJClOoMik",
+              "transports": [
+                "internal"
+              ]
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 201,
+        "body": {
+          "verified": true,
+          "user": {
+            "id": "eedab8c7-03d0-41d2-baef-f0ff49ae6a0a",
+            "displayName": "연습A"
+          },
+          "passkey": {
+            "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "name": "합성 테스트 키 1",
+            "storage": "기기 자체",
+            "createdAt": 1791266183038
+          }
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/register/options",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "mode": "signup",
+          "displayName": "연습B",
+          "keyName": "합성 테스트 키 1",
+          "storage": "기기 자체"
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "options": {
+            "challenge": "28g_EegBfxqMJEsyeMwwZ-fkenDPhHFYD6LbnikzMFg",
+            "rp": {
+              "name": "솜사탕의 나만의 메모함",
+              "id": "127.0.0.1"
+            },
+            "user": {
+              "id": "ZDU5MzFjMjMtZGVlNC00Mzk5LTkzZjQtNTBlYWNkZGIyNGQx",
+              "name": "연습B · d5931c23",
+              "displayName": "연습B"
+            },
+            "pubKeyCredParams": [
+              {
+                "alg": -7,
+                "type": "public-key"
+              },
+              {
+                "alg": -257,
+                "type": "public-key"
+              }
+            ],
+            "timeout": 60000,
+            "attestation": "none",
+            "excludeCredentials": [],
+            "authenticatorSelection": {
+              "residentKey": "required",
+              "userVerification": "required",
+              "requireResidentKey": true,
+              "authenticatorAttachment": "platform"
+            },
+            "extensions": {
+              "credProps": true
+            },
+            "hints": [
+              "client-device"
+            ]
+          },
+          "expiresIn": 300
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/register/verify",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "response": {
+            "id": "fxzUTA8ZkCUeZww0YSiOIYwPfKuRMDQWGOfkLLY2pq0",
+            "rawId": "fxzUTA8ZkCUeZww0YSiOIYwPfKuRMDQWGOfkLLY2pq0",
+            "type": "public-key",
+            "clientExtensionResults": {
+              "credProps": {
+                "rk": true
+              }
+            },
+            "authenticatorAttachment": "platform",
+            "response": {
+              "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uY3JlYXRlIiwiY2hhbGxlbmdlIjoiMjhnX0VlZ0JmeHFNSkVzeWVNd3daLWZrZW5EUGhIRllENkxibmlrek1GZyIsIm9yaWdpbiI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3OCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
+              "attestationObject": "o2NmbXRkbm9uZWdhdHRTdG10oGhhdXRoRGF0YVikEsoXtJryKJQ28wPgFmAwoh5SXSZuIJJnQzgBqP1AcaBFAAAAAAAAAAAAAAAAAAAAAAAAAAAAIH8c1EwPGZAlHmcMNGEojiGMD3yrkTA0Fhjn5Cy2NqatpQECAyYgASFYICd0Srsen3YJEN49fUMsOLVtQv4UiIT8DdalXcr-p35yIlggdmHEdaJM_X-wkU9dYsyR4NMctxnqqSVYvXhxOpRa61Q",
+              "transports": [
+                "internal"
+              ]
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 201,
+        "body": {
+          "verified": true,
+          "user": {
+            "id": "d5931c23-dee4-4399-93f4-50eacddb24d1",
+            "displayName": "연습B"
+          },
+          "passkey": {
+            "id": "fxzUTA8ZkCUeZww0YSiOIYwPfKuRMDQWGOfkLLY2pq0",
+            "name": "합성 테스트 키 1",
+            "storage": "기기 자체",
+            "createdAt": 1791266183088
+          }
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/private/notes",
+        "headers": {
+          "Cookie": "[REDACTED]"
+        },
+        "body": null
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "user": {
+            "id": "eedab8c7-03d0-41d2-baef-f0ff49ae6a0a",
+            "displayName": "연습A"
+          },
+          "notes": [
+            {
+              "id": "459be6ce-a623-47ca-9db7-fba040fa53b1",
+              "category": "돌아보기",
+              "title": "오늘의 연습 회고",
+              "body": "연습A의 가상 회고: 막힌 부분을 한 번에 해결하려 하지 않고 작은 단계로 나눠 보았다.",
+              "updated_at": 1791266183038
+            },
+            {
+              "id": "9982febe-8038-454b-8cf4-2490c37ed42f",
+              "category": "프로젝트 메모",
+              "title": "작은 전시 페이지 준비",
+              "body": "연습A의 가상 프로젝트: 작품 카드 세 장과 소개 문장을 만들어 보는 연습.",
+              "updated_at": 1791266183038
+            },
+            {
+              "id": "ebaee47e-a393-4c07-8884-fefe72a1dcb3",
+              "category": "지원 계획",
+              "title": "연습용 지원 목록",
+              "body": "연습A의 가상 계획: 가상의 팀 ‘구름 작업실’과 ‘별빛 스튜디오’ 소개를 읽어 보기.",
+              "updated_at": 1791266183038
+            }
+          ],
+          "fictional": true
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/private/notes",
+        "headers": {
+          "Cookie": "[REDACTED]"
+        },
+        "body": null
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "user": {
+            "id": "d5931c23-dee4-4399-93f4-50eacddb24d1",
+            "displayName": "연습B"
+          },
+          "notes": [
+            {
+              "id": "2253b038-b6b9-4f77-966a-c4fca4388e66",
+              "category": "돌아보기",
+              "title": "오늘의 연습 회고",
+              "body": "연습B의 가상 회고: 막힌 부분을 한 번에 해결하려 하지 않고 작은 단계로 나눠 보았다.",
+              "updated_at": 1791266183088
+            },
+            {
+              "id": "6c766f3a-ae03-432f-aacb-bdf873a33097",
+              "category": "프로젝트 메모",
+              "title": "작은 전시 페이지 준비",
+              "body": "연습B의 가상 프로젝트: 작품 카드 세 장과 소개 문장을 만들어 보는 연습.",
+              "updated_at": 1791266183088
+            },
+            {
+              "id": "ff161d00-016b-4c6a-88c4-d647d066bbfa",
+              "category": "지원 계획",
+              "title": "연습용 지원 목록",
+              "body": "연습B의 가상 계획: 가상의 팀 ‘구름 작업실’과 ‘별빛 스튜디오’ 소개를 읽어 보기.",
+              "updated_at": 1791266183088
+            }
+          ],
+          "fictional": true
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/passkey/evidence?userId=d5931c23-dee4-4399-93f4-50eacddb24d1",
+        "headers": {
+          "Cookie": "[REDACTED]"
+        },
+        "body": null
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "capturedAt": "2026-10-06T05:56:23.157Z",
+          "user": {
+            "id": "eedab8c7-03d0-41d2-baef-f0ff49ae6a0a",
+            "displayName": "연습A"
+          },
+          "keys": [
+            {
+              "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+              "name": "합성 테스트 키 1",
+              "storage": "기기 자체",
+              "public_key": "pQECAyYgASFYIPHDMT7lAvtf7uYyd6-qlmqO-5Ab9a_siBdJXs78O4UoIlgghnxZlPeKRa8zHAKSeOjuYry6vGk4iGy1KvqJClOoMik",
+              "created_at": 1791266183038,
+              "revoked_at": null
+            }
+          ],
+          "publicKeyEncoding": "COSE public key, base64url; not a password",
+          "storageSource": "user-selected; check the actual passkey provider",
+          "privateKeysIncluded": false
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/private/notes/2253b038-b6b9-4f77-966a-c4fca4388e66",
+        "headers": {
+          "Cookie": "[REDACTED]"
+        },
+        "body": null
+      },
+      "response": {
+        "status": 403,
+        "body": {
+          "error": "NOTE_FORBIDDEN",
+          "message": "다른 계정의 메모는 열 수 없어요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/private/notes/459be6ce-a623-47ca-9db7-fba040fa53b1",
+        "headers": {
+          "Cookie": "[REDACTED]"
+        },
+        "body": null
+      },
+      "response": {
+        "status": 403,
+        "body": {
+          "error": "NOTE_FORBIDDEN",
+          "message": "다른 계정의 메모는 열 수 없어요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/private/notes?userId=d5931c23-dee4-4399-93f4-50eacddb24d1",
+        "headers": {
+          "Cookie": "[REDACTED]"
+        },
+        "body": null
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "user": {
+            "id": "eedab8c7-03d0-41d2-baef-f0ff49ae6a0a",
+            "displayName": "연습A"
+          },
+          "notes": [
+            {
+              "id": "459be6ce-a623-47ca-9db7-fba040fa53b1",
+              "category": "돌아보기",
+              "title": "오늘의 연습 회고",
+              "body": "연습A의 가상 회고: 막힌 부분을 한 번에 해결하려 하지 않고 작은 단계로 나눠 보았다.",
+              "updated_at": 1791266183038
+            },
+            {
+              "id": "9982febe-8038-454b-8cf4-2490c37ed42f",
+              "category": "프로젝트 메모",
+              "title": "작은 전시 페이지 준비",
+              "body": "연습A의 가상 프로젝트: 작품 카드 세 장과 소개 문장을 만들어 보는 연습.",
+              "updated_at": 1791266183038
+            },
+            {
+              "id": "ebaee47e-a393-4c07-8884-fefe72a1dcb3",
+              "category": "지원 계획",
+              "title": "연습용 지원 목록",
+              "body": "연습A의 가상 계획: 가상의 팀 ‘구름 작업실’과 ‘별빛 스튜디오’ 소개를 읽어 보기.",
+              "updated_at": 1791266183038
+            }
+          ],
+          "fictional": true
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/private/notes",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "userId": "d5931c23-dee4-4399-93f4-50eacddb24d1"
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "user": {
+            "id": "eedab8c7-03d0-41d2-baef-f0ff49ae6a0a",
+            "displayName": "연습A"
+          },
+          "notes": [
+            {
+              "id": "459be6ce-a623-47ca-9db7-fba040fa53b1",
+              "category": "돌아보기",
+              "title": "오늘의 연습 회고",
+              "body": "연습A의 가상 회고: 막힌 부분을 한 번에 해결하려 하지 않고 작은 단계로 나눠 보았다.",
+              "updated_at": 1791266183038
+            },
+            {
+              "id": "9982febe-8038-454b-8cf4-2490c37ed42f",
+              "category": "프로젝트 메모",
+              "title": "작은 전시 페이지 준비",
+              "body": "연습A의 가상 프로젝트: 작품 카드 세 장과 소개 문장을 만들어 보는 연습.",
+              "updated_at": 1791266183038
+            },
+            {
+              "id": "ebaee47e-a393-4c07-8884-fefe72a1dcb3",
+              "category": "지원 계획",
+              "title": "연습용 지원 목록",
+              "body": "연습A의 가상 계획: 가상의 팀 ‘구름 작업실’과 ‘별빛 스튜디오’ 소개를 읽어 보기.",
+              "updated_at": 1791266183038
+            }
+          ],
+          "fictional": true
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/private/notes",
+        "headers": {
+          "Cookie": "[REDACTED]"
+        },
+        "body": null
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "user": {
+            "id": "eedab8c7-03d0-41d2-baef-f0ff49ae6a0a",
+            "displayName": "연습A"
+          },
+          "notes": [
+            {
+              "id": "459be6ce-a623-47ca-9db7-fba040fa53b1",
+              "category": "돌아보기",
+              "title": "오늘의 연습 회고",
+              "body": "연습A의 가상 회고: 막힌 부분을 한 번에 해결하려 하지 않고 작은 단계로 나눠 보았다.",
+              "updated_at": 1791266183038
+            },
+            {
+              "id": "9982febe-8038-454b-8cf4-2490c37ed42f",
+              "category": "프로젝트 메모",
+              "title": "작은 전시 페이지 준비",
+              "body": "연습A의 가상 프로젝트: 작품 카드 세 장과 소개 문장을 만들어 보는 연습.",
+              "updated_at": 1791266183038
+            },
+            {
+              "id": "ebaee47e-a393-4c07-8884-fefe72a1dcb3",
+              "category": "지원 계획",
+              "title": "연습용 지원 목록",
+              "body": "연습A의 가상 계획: 가상의 팀 ‘구름 작업실’과 ‘별빛 스튜디오’ 소개를 읽어 보기.",
+              "updated_at": 1791266183038
+            }
+          ],
+          "fictional": true
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/private/notes",
+        "headers": {
+          "Cookie": "[REDACTED]"
+        },
+        "body": null
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "user": {
+            "id": "d5931c23-dee4-4399-93f4-50eacddb24d1",
+            "displayName": "연습B"
+          },
+          "notes": [
+            {
+              "id": "2253b038-b6b9-4f77-966a-c4fca4388e66",
+              "category": "돌아보기",
+              "title": "오늘의 연습 회고",
+              "body": "연습B의 가상 회고: 막힌 부분을 한 번에 해결하려 하지 않고 작은 단계로 나눠 보았다.",
+              "updated_at": 1791266183088
+            },
+            {
+              "id": "6c766f3a-ae03-432f-aacb-bdf873a33097",
+              "category": "프로젝트 메모",
+              "title": "작은 전시 페이지 준비",
+              "body": "연습B의 가상 프로젝트: 작품 카드 세 장과 소개 문장을 만들어 보는 연습.",
+              "updated_at": 1791266183088
+            },
+            {
+              "id": "ff161d00-016b-4c6a-88c4-d647d066bbfa",
+              "category": "지원 계획",
+              "title": "연습용 지원 목록",
+              "body": "연습B의 가상 계획: 가상의 팀 ‘구름 작업실’과 ‘별빛 스튜디오’ 소개를 읽어 보기.",
+              "updated_at": 1791266183088
+            }
+          ],
+          "fictional": true
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "DELETE",
+        "path": "/api/passkey/keys",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "id": "fxzUTA8ZkCUeZww0YSiOIYwPfKuRMDQWGOfkLLY2pq0"
+        }
+      },
+      "response": {
+        "status": 403,
+        "body": {
+          "error": "KEY_FORBIDDEN",
+          "message": "이 계정의 패스키만 관리할 수 있어요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "DELETE",
+        "path": "/api/passkey/keys",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg"
+        }
+      },
+      "response": {
+        "status": 409,
+        "body": {
+          "error": "LAST_PASSKEY",
+          "message": "마지막 패스키는 삭제할 수 없어요. 다른 패스키를 먼저 추가해 주세요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/passkey/keys",
+        "headers": {
+          "Cookie": "[REDACTED]"
+        },
+        "body": null
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "keys": [
+            {
+              "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+              "name": "합성 테스트 키 1",
+              "storage": "기기 자체",
+              "created_at": 1791266183038,
+              "device_type": "singleDevice",
+              "backed_up": 0
+            }
+          ]
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/register/options",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "mode": "register",
+          "keyName": "합성 테스트 키 2",
+          "storage": "보안 키"
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "options": {
+            "challenge": "Le5d6FcLpLwln4VURSxyzniZddwn5XXxPcaCiyRMYts",
+            "rp": {
+              "name": "솜사탕의 나만의 메모함",
+              "id": "127.0.0.1"
+            },
+            "user": {
+              "id": "ZWVkYWI4YzctMDNkMC00MWQyLWJhZWYtZjBmZjQ5YWU2YTBh",
+              "name": "연습A · eedab8c7",
+              "displayName": "연습A"
+            },
+            "pubKeyCredParams": [
+              {
+                "alg": -7,
+                "type": "public-key"
+              },
+              {
+                "alg": -257,
+                "type": "public-key"
+              }
+            ],
+            "timeout": 60000,
+            "attestation": "none",
+            "excludeCredentials": [
+              {
+                "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+                "transports": [
+                  "internal"
+                ],
+                "type": "public-key"
+              }
+            ],
+            "authenticatorSelection": {
+              "residentKey": "required",
+              "userVerification": "required",
+              "requireResidentKey": true,
+              "authenticatorAttachment": "cross-platform"
+            },
+            "extensions": {
+              "credProps": true
+            },
+            "hints": [
+              "security-key"
+            ]
+          },
+          "expiresIn": 300
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/register/verify",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "response": {
+            "id": "0GRzeGVdexvbNKQj4fOr8m6SXUkeJgzesC7-Zh4Wwew",
+            "rawId": "0GRzeGVdexvbNKQj4fOr8m6SXUkeJgzesC7-Zh4Wwew",
+            "type": "public-key",
+            "clientExtensionResults": {
+              "credProps": {
+                "rk": true
+              }
+            },
+            "authenticatorAttachment": "platform",
+            "response": {
+              "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uY3JlYXRlIiwiY2hhbGxlbmdlIjoiTGU1ZDZGY0xwTHdsbjRWVVJTeHl6bmlaZGR3bjVYWHhQY2FDaXlSTVl0cyIsIm9yaWdpbiI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3OCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
+              "attestationObject": "o2NmbXRkbm9uZWdhdHRTdG10oGhhdXRoRGF0YVikEsoXtJryKJQ28wPgFmAwoh5SXSZuIJJnQzgBqP1AcaBFAAAAAAAAAAAAAAAAAAAAAAAAAAAAINBkc3hlXXsb2zSkI-Hzq_Jukl1JHiYM3rAu_mYeFsHspQECAyYgASFYIMPlb5WdCoCGcbBsc9iXF-8Or_7ruY4LrTWf5FU-iUiBIlggrkkSX8nuA86I5ropWRRhZ_EHa58gi49yaNIiPVzO5-I",
+              "transports": [
+                "internal"
+              ]
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 201,
+        "body": {
+          "verified": true,
+          "user": {
+            "id": "eedab8c7-03d0-41d2-baef-f0ff49ae6a0a",
+            "displayName": "연습A"
+          },
+          "passkey": {
+            "id": "0GRzeGVdexvbNKQj4fOr8m6SXUkeJgzesC7-Zh4Wwew",
+            "name": "합성 테스트 키 2",
+            "storage": "보안 키",
+            "createdAt": 1791266183340
+          }
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/passkey/keys",
+        "headers": {
+          "Cookie": "[REDACTED]"
+        },
+        "body": null
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "keys": [
+            {
+              "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+              "name": "합성 테스트 키 1",
+              "storage": "기기 자체",
+              "created_at": 1791266183038,
+              "device_type": "singleDevice",
+              "backed_up": 0
+            },
+            {
+              "id": "0GRzeGVdexvbNKQj4fOr8m6SXUkeJgzesC7-Zh4Wwew",
+              "name": "합성 테스트 키 2",
+              "storage": "보안 키",
+              "created_at": 1791266183340,
+              "device_type": "singleDevice",
+              "backed_up": 0
+            }
+          ]
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/logout",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json"
+        },
+        "body": {}
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "signedOut": true
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/private/notes",
+        "headers": {
+          "Cookie": "[REDACTED]"
+        },
+        "body": null
+      },
+      "response": {
+        "status": 401,
+        "body": {
+          "error": "LOGIN_REQUIRED",
+          "message": "패스키로 메모함을 먼저 열어 주세요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/options",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {}
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "options": {
+            "rpId": "127.0.0.1",
+            "challenge": "3_8BoW7ebEsw-ffAsaqqwLeDq1hOWqokvByZqqK6c6U",
+            "allowCredentials": [],
+            "timeout": 60000,
+            "userVerification": "required"
+          },
+          "expiresIn": 300
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/options",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {}
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "options": {
+            "rpId": "127.0.0.1",
+            "challenge": "Yf02PpL_qDo-z-himg-oDseRrFO3Jnr48GrxNR74XZE",
+            "allowCredentials": [],
+            "timeout": 60000,
+            "userVerification": "required"
+          },
+          "expiresIn": 300
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/verify",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "response": {
+            "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "rawId": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "type": "public-key",
+            "clientExtensionResults": {},
+            "authenticatorAttachment": "platform",
+            "response": {
+              "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiWWYwMlBwTF9xRG8tei1oaW1nLW9Ec2VSckZPM0pucjQ4R3J4TlI3NFhaRSIsIm9yaWdpbiI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3OCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
+              "authenticatorData": "EsoXtJryKJQ28wPgFmAwoh5SXSZuIJJnQzgBqP1AcaAFAAAAAQ",
+              "signature": "MEQCIHJVc1U3NlyFaAXYyXb30A5Eh3pnhTlP-ETPf2kIyKXTAiAQ2V0eeMnWMKlJQhXLxpxgVM8taVPe-R7KCRshBbgg3A",
+              "userHandle": "ZWVkYWI4YzctMDNkMC00MWQyLWJhZWYtZjBmZjQ5YWU2YTBh"
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "verified": true,
+          "user": {
+            "id": "eedab8c7-03d0-41d2-baef-f0ff49ae6a0a",
+            "displayName": "연습A"
+          }
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/verify",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "response": {
+            "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "rawId": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "type": "public-key",
+            "clientExtensionResults": {},
+            "authenticatorAttachment": "platform",
+            "response": {
+              "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiWWYwMlBwTF9xRG8tei1oaW1nLW9Ec2VSckZPM0pucjQ4R3J4TlI3NFhaRSIsIm9yaWdpbiI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3OCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
+              "authenticatorData": "EsoXtJryKJQ28wPgFmAwoh5SXSZuIJJnQzgBqP1AcaAFAAAAAQ",
+              "signature": "MEQCIHJVc1U3NlyFaAXYyXb30A5Eh3pnhTlP-ETPf2kIyKXTAiAQ2V0eeMnWMKlJQhXLxpxgVM8taVPe-R7KCRshBbgg3A",
+              "userHandle": "ZWVkYWI4YzctMDNkMC00MWQyLWJhZWYtZjBmZjQ5YWU2YTBh"
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 400,
+        "body": {
+          "error": "CHALLENGE_INVALID",
+          "message": "이미 사용했거나 만료된 요청이에요. 다시 시도해 주세요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/options",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {}
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "options": {
+            "rpId": "127.0.0.1",
+            "challenge": "VMAZgna-ej89OpySBoRkXHpdILw4hYkJDqmuRIsk0Pc",
+            "allowCredentials": [],
+            "timeout": 60000,
+            "userVerification": "required"
+          },
+          "expiresIn": 300
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/verify",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "response": {
+            "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "rawId": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "type": "public-key",
+            "clientExtensionResults": {},
+            "authenticatorAttachment": "platform",
+            "response": {
+              "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiVk1BWmduYS1lajg5T3B5U0JvUmtYSHBkSUx3NGhZa0pEcW11UklzazBQYyIsIm9yaWdpbiI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3OCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
+              "authenticatorData": "EsoXtJryKJQ28wPgFmAwoh5SXSZuIJJnQzgBqP1AcaAFAAAAAg",
+              "signature": "MEUCIHKkDezQjrjZfPnIo4QRkPtPCgx2yZA5NCV7EmbwOGMjAiEA1cCVLIFzz_f08UQfrCIfLoJ205jMM0vKx0ECkB-42KY",
+              "userHandle": "ZWVkYWI4YzctMDNkMC00MWQyLWJhZWYtZjBmZjQ5YWU2YTBh"
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 401,
+        "body": {
+          "error": "SIGNATURE_INVALID",
+          "message": "패스키를 확인하지 못했어요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/options",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {}
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "options": {
+            "rpId": "127.0.0.1",
+            "challenge": "3Fg37fSAbYI9wMnZWvVhxV8jswobu8k-gOi-Da8qn9o",
+            "allowCredentials": [],
+            "timeout": 60000,
+            "userVerification": "required"
+          },
+          "expiresIn": 300
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/verify",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "response": {
+            "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "rawId": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "type": "public-key",
+            "clientExtensionResults": {},
+            "authenticatorAttachment": "platform",
+            "response": {
+              "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiM0ZnMzdmU0FiWUk5d01uWld2Vmh4Vjhqc3dvYnU4ay1nT2ktRGE4cW45byIsIm9yaWdpbiI6Imh0dHBzOi8vZXhhbXBsZS5pbnZhbGlkIiwiY3Jvc3NPcmlnaW4iOmZhbHNlfQ",
+              "authenticatorData": "EsoXtJryKJQ28wPgFmAwoh5SXSZuIJJnQzgBqP1AcaAFAAAAAw",
+              "signature": "MEUCIDVguDdnW9IJjzBCQzEyI3BC3ck-ohEnV8TFq2JJwjEmAiEA4y-VM_TIVSIZ_vsv89WenkOJyXIJSl66X9wh_0nxw0M",
+              "userHandle": "ZWVkYWI4YzctMDNkMC00MWQyLWJhZWYtZjBmZjQ5YWU2YTBh"
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 401,
+        "body": {
+          "error": "SIGNATURE_INVALID",
+          "message": "패스키를 확인하지 못했어요. 다시 시도해 주세요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/options",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {}
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "options": {
+            "rpId": "127.0.0.1",
+            "challenge": "7-l7S6EtiWHCX1GAT1PXuLHi8_hQ38l5SHVX-wOWa0M",
+            "allowCredentials": [],
+            "timeout": 60000,
+            "userVerification": "required"
+          },
+          "expiresIn": 300
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/verify",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "response": {
+            "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "rawId": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "type": "public-key",
+            "clientExtensionResults": {},
+            "authenticatorAttachment": "platform",
+            "response": {
+              "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiNy1sN1M2RXRpV0hDWDFHQVQxUFh1TEhpOF9oUTM4bDVTSFZYLXdPV2EwTSIsIm9yaWdpbiI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3OCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
+              "authenticatorData": "EsoXtJryKJQ28wPgFmAwoh5SXSZuIJJnQzgBqP1AcaAFAAAABA",
+              "signature": "MEUCIQCqubECRs8pvsn5SGsmXEQh25pHc5OpDpSlOXW1HW-PEwIgGJ9VziTwrN399FEQkARJXy1VUYF0pjrPJc8kiePD3vA",
+              "userHandle": "ZDU5MzFjMjMtZGVlNC00Mzk5LTkzZjQtNTBlYWNkZGIyNGQx"
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 401,
+        "body": {
+          "error": "USER_HANDLE_INVALID",
+          "message": "패스키의 계정을 확인하지 못했어요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/options",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {}
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "options": {
+            "rpId": "127.0.0.1",
+            "challenge": "yZGkX5hBDTGEXO0RNLHfvhWgDRs-hFhgTrPRVqExDnY",
+            "allowCredentials": [],
+            "timeout": 60000,
+            "userVerification": "required"
+          },
+          "expiresIn": 300
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/verify",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "response": {
+            "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "rawId": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "type": "public-key",
+            "clientExtensionResults": {},
+            "authenticatorAttachment": "platform",
+            "response": {
+              "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoieVpHa1g1aEJEVEdFWE8wUk5MSGZ2aFdnRFJzLWhGaGdUclBSVnFFeERuWSIsIm9yaWdpbiI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3OCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
+              "authenticatorData": "EsoXtJryKJQ28wPgFmAwoh5SXSZuIJJnQzgBqP1AcaAFAAAABQ",
+              "signature": "MEQCIEVG5S8Nui6sEHxkUre7rZi7OyEEZ8UWu326AYVy8fAVAiBy5y6o4GtstIZETOo6u0F3HqP5atHcgjASePWZASCqbA",
+              "userHandle": "ZWVkYWI4YzctMDNkMC00MWQyLWJhZWYtZjBmZjQ5YWU2YTBh"
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "verified": true,
+          "user": {
+            "id": "eedab8c7-03d0-41d2-baef-f0ff49ae6a0a",
+            "displayName": "연습A"
+          }
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/verify",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "response": {
+            "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "rawId": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "type": "public-key",
+            "clientExtensionResults": {},
+            "authenticatorAttachment": "platform",
+            "response": {
+              "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoieVpHa1g1aEJEVEdFWE8wUk5MSGZ2aFdnRFJzLWhGaGdUclBSVnFFeERuWSIsIm9yaWdpbiI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3OCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
+              "authenticatorData": "EsoXtJryKJQ28wPgFmAwoh5SXSZuIJJnQzgBqP1AcaAFAAAABQ",
+              "signature": "MEQCIEVG5S8Nui6sEHxkUre7rZi7OyEEZ8UWu326AYVy8fAVAiBy5y6o4GtstIZETOo6u0F3HqP5atHcgjASePWZASCqbA",
+              "userHandle": "ZWVkYWI4YzctMDNkMC00MWQyLWJhZWYtZjBmZjQ5YWU2YTBh"
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 400,
+        "body": {
+          "error": "CHALLENGE_INVALID",
+          "message": "이미 사용했거나 만료된 요청이에요. 다시 시도해 주세요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "DELETE",
+        "path": "/api/passkey/keys",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg"
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "deleted": true,
+          "signedOut": true,
+          "message": "패스키를 삭제했어요. 남은 패스키로 다시 로그인해 주세요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/private/notes",
+        "headers": {
+          "Cookie": "[REDACTED]"
+        },
+        "body": null
+      },
+      "response": {
+        "status": 401,
+        "body": {
+          "error": "LOGIN_REQUIRED",
+          "message": "패스키로 메모함을 먼저 열어 주세요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/options",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {}
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "options": {
+            "rpId": "127.0.0.1",
+            "challenge": "PQmYvDro6t-cxNZOqvQdQqc1IHjB6nHU7sbKl2bYPIo",
+            "allowCredentials": [],
+            "timeout": 60000,
+            "userVerification": "required"
+          },
+          "expiresIn": 300
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/verify",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "response": {
+            "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "rawId": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+            "type": "public-key",
+            "clientExtensionResults": {},
+            "authenticatorAttachment": "platform",
+            "response": {
+              "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiUFFtWXZEcm82dC1jeE5aT3F2UWRRcWMxSUhqQjZuSFU3c2JLbDJiWVBJbyIsIm9yaWdpbiI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3OCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
+              "authenticatorData": "EsoXtJryKJQ28wPgFmAwoh5SXSZuIJJnQzgBqP1AcaAFAAAABg",
+              "signature": "MEUCIQC_EJqWHzYGj-lpC00tikvUPO4AD10tugMO0w6xwWFr-gIgQmQEQMZw0Gqj6-OxmR9G8czuYZjjAMgSuExyBuDUW8k",
+              "userHandle": "ZWVkYWI4YzctMDNkMC00MWQyLWJhZWYtZjBmZjQ5YWU2YTBh"
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 401,
+        "body": {
+          "error": "PASSKEY_UNKNOWN",
+          "message": "등록되지 않았거나 삭제된 패스키예요. 다른 등록된 패스키를 선택해 주세요."
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/options",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {}
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "options": {
+            "rpId": "127.0.0.1",
+            "challenge": "-FQh8XfTHD5AoCFAOLicBKpFOZiFUzqRJ7X2fHp7dEc",
+            "allowCredentials": [],
+            "timeout": 60000,
+            "userVerification": "required"
+          },
+          "expiresIn": 300
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/login/verify",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "response": {
+            "id": "0GRzeGVdexvbNKQj4fOr8m6SXUkeJgzesC7-Zh4Wwew",
+            "rawId": "0GRzeGVdexvbNKQj4fOr8m6SXUkeJgzesC7-Zh4Wwew",
+            "type": "public-key",
+            "clientExtensionResults": {},
+            "authenticatorAttachment": "platform",
+            "response": {
+              "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoiLUZRaDhYZlRIRDVBb0NGQU9MaWNCS3BGT1ppRlV6cVJKN1gyZkhwN2RFYyIsIm9yaWdpbiI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3OCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
+              "authenticatorData": "EsoXtJryKJQ28wPgFmAwoh5SXSZuIJJnQzgBqP1AcaAFAAAAAQ",
+              "signature": "MEYCIQDZEx6aw5mYOB1niqlkyU2LKRONY8Fw6b2HBcJJeRhK7gIhAOoptfPaL3LDUNlq9IKm-rxfWadto7s2Y_tU1jvREArM",
+              "userHandle": "ZWVkYWI4YzctMDNkMC00MWQyLWJhZWYtZjBmZjQ5YWU2YTBh"
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "verified": true,
+          "user": {
+            "id": "eedab8c7-03d0-41d2-baef-f0ff49ae6a0a",
+            "displayName": "연습A"
+          }
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "path": "/api/private/notes",
+        "headers": {
+          "Cookie": "[REDACTED]"
+        },
+        "body": null
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "user": {
+            "id": "eedab8c7-03d0-41d2-baef-f0ff49ae6a0a",
+            "displayName": "연습A"
+          },
+          "notes": [
+            {
+              "id": "459be6ce-a623-47ca-9db7-fba040fa53b1",
+              "category": "돌아보기",
+              "title": "오늘의 연습 회고",
+              "body": "연습A의 가상 회고: 막힌 부분을 한 번에 해결하려 하지 않고 작은 단계로 나눠 보았다.",
+              "updated_at": 1791266183038
+            },
+            {
+              "id": "9982febe-8038-454b-8cf4-2490c37ed42f",
+              "category": "프로젝트 메모",
+              "title": "작은 전시 페이지 준비",
+              "body": "연습A의 가상 프로젝트: 작품 카드 세 장과 소개 문장을 만들어 보는 연습.",
+              "updated_at": 1791266183038
+            },
+            {
+              "id": "ebaee47e-a393-4c07-8884-fefe72a1dcb3",
+              "category": "지원 계획",
+              "title": "연습용 지원 목록",
+              "body": "연습A의 가상 계획: 가상의 팀 ‘구름 작업실’과 ‘별빛 스튜디오’ 소개를 읽어 보기.",
+              "updated_at": 1791266183038
+            }
+          ],
+          "fictional": true
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": null
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/register/options",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "mode": "register",
+          "keyName": "challenge 비교1",
+          "storage": "기기 자체"
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "options": {
+            "challenge": "hiyns33doVN9W0ZkGj1PscWWzrBNU16GdOn6MM5zhW8",
+            "rp": {
+              "name": "솜사탕의 나만의 메모함",
+              "id": "127.0.0.1"
+            },
+            "user": {
+              "id": "ZWVkYWI4YzctMDNkMC00MWQyLWJhZWYtZjBmZjQ5YWU2YTBh",
+              "name": "연습A · eedab8c7",
+              "displayName": "연습A"
+            },
+            "pubKeyCredParams": [
+              {
+                "alg": -7,
+                "type": "public-key"
+              },
+              {
+                "alg": -257,
+                "type": "public-key"
+              }
+            ],
+            "timeout": 60000,
+            "attestation": "none",
+            "excludeCredentials": [
+              {
+                "id": "0GRzeGVdexvbNKQj4fOr8m6SXUkeJgzesC7-Zh4Wwew",
+                "transports": [
+                  "internal"
+                ],
+                "type": "public-key"
+              }
+            ],
+            "authenticatorSelection": {
+              "residentKey": "required",
+              "userVerification": "required",
+              "requireResidentKey": true,
+              "authenticatorAttachment": "platform"
+            },
+            "extensions": {
+              "credProps": true
+            },
+            "hints": [
+              "client-device"
+            ]
+          },
+          "expiresIn": 300
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/register/options",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {
+          "mode": "register",
+          "keyName": "challenge 비교2",
+          "storage": "기기 자체"
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "options": {
+            "challenge": "QR3AnunEzclH3pAh1c4mUMRLU_y-5fBdKrtdq-1Dg5o",
+            "rp": {
+              "name": "솜사탕의 나만의 메모함",
+              "id": "127.0.0.1"
+            },
+            "user": {
+              "id": "ZWVkYWI4YzctMDNkMC00MWQyLWJhZWYtZjBmZjQ5YWU2YTBh",
+              "name": "연습A · eedab8c7",
+              "displayName": "연습A"
+            },
+            "pubKeyCredParams": [
+              {
+                "alg": -7,
+                "type": "public-key"
+              },
+              {
+                "alg": -257,
+                "type": "public-key"
+              }
+            ],
+            "timeout": 60000,
+            "attestation": "none",
+            "excludeCredentials": [
+              {
+                "id": "0GRzeGVdexvbNKQj4fOr8m6SXUkeJgzesC7-Zh4Wwew",
+                "transports": [
+                  "internal"
+                ],
+                "type": "public-key"
+              }
+            ],
+            "authenticatorSelection": {
+              "residentKey": "required",
+              "userVerification": "required",
+              "requireResidentKey": true,
+              "authenticatorAttachment": "platform"
+            },
+            "extensions": {
+              "credProps": true
+            },
+            "hints": [
+              "client-device"
+            ]
+          },
+          "expiresIn": 300
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/cancel",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json",
+          "Cookie": "[REDACTED]"
+        },
+        "body": {}
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "cancelled": true
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/logout",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json"
+        },
+        "body": {}
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "signedOut": true
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "path": "/api/passkey/logout",
+        "headers": {
+          "Origin": "http://127.0.0.1:5178",
+          "Content-Type": "application/json"
+        },
+        "body": {}
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "signedOut": true
+        },
+        "Cache-Control": "no-store",
+        "Set-Cookie": "[REDACTED]"
+      }
+    }
+  ]
+}

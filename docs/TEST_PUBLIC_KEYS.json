@@ -1,0 +1,35 @@
+{
+  "scope": "Synthesized engineering test credentials only. These are COSE public keys encoded as base64url, not passwords. No private keys are sent to or stored by the app.",
+  "keys": [
+    {
+      "id": "fxzUTA8ZkCUeZww0YSiOIYwPfKuRMDQWGOfkLLY2pq0",
+      "user_id": "d5931c23-dee4-4399-93f4-50eacddb24d1",
+      "public_key": "pQECAyYgASFYICd0Srsen3YJEN49fUMsOLVtQv4UiIT8DdalXcr-p35yIlggdmHEdaJM_X-wkU9dYsyR4NMctxnqqSVYvXhxOpRa61Q",
+      "counter": 0,
+      "name": "합성 테스트 키 1",
+      "storage": "기기 자체",
+      "created_at": 1791266183088,
+      "revoked_at": null
+    },
+    {
+      "id": "6u3PVLDSKduWnThdjzqFDqodn0bjaxg7ak3JFxkBQPg",
+      "user_id": "eedab8c7-03d0-41d2-baef-f0ff49ae6a0a",
+      "public_key": "pQECAyYgASFYIPHDMT7lAvtf7uYyd6-qlmqO-5Ab9a_siBdJXs78O4UoIlgghnxZlPeKRa8zHAKSeOjuYry6vGk4iGy1KvqJClOoMik",
+      "counter": 5,
+      "name": "합성 테스트 키 1",
+      "storage": "기기 자체",
+      "created_at": 1791266183038,
+      "revoked_at": 1791266183657
+    },
+    {
+      "id": "0GRzeGVdexvbNKQj4fOr8m6SXUkeJgzesC7-Zh4Wwew",
+      "user_id": "eedab8c7-03d0-41d2-baef-f0ff49ae6a0a",
+      "public_key": "pQECAyYgASFYIMPlb5WdCoCGcbBsc9iXF-8Or_7ruY4LrTWf5FU-iUiBIlggrkkSX8nuA86I5ropWRRhZ_EHa58gi49yaNIiPVzO5-I",
+      "counter": 1,
+      "name": "합성 테스트 키 2",
+      "storage": "보안 키",
+      "created_at": 1791266183340,
+      "revoked_at": null
+    }
+  ]
+}
